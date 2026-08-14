@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Audit et plan de match · Solidarité Ahuntsic · Ouchylon Suong</title>
+<meta name="description" content="Audit des communications de Solidarité Ahuntsic et plan de match, préparé par Ouchylon Suong en appui à sa candidature au poste de responsable des communications.">
+<style>
+  :root{
+    --navy:#083671; --blue:#1863dc; --amber:#f89b18;
+    --ink:#101720; --sub:#39434f; --muted:#6d7885; --hair:#dde3ea;
+    --bg:#ffffff; --soft:#f4f7fa; --deep:#062b5c;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",-apple-system,system-ui,Roboto,Helvetica,Arial,sans-serif;
+    font-size:17px;line-height:1.68;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px;}
+  a{color:var(--blue);}
+
+  /* HERO */
+  header.hero{background:var(--navy);color:#fff;padding:64px 0 56px;}
+  header.hero .kicker{font-size:12px;letter-spacing:2.6px;text-transform:uppercase;
+    font-weight:700;color:#9dc0f0;margin-bottom:18px;}
+  header.hero h1{font-size:44px;line-height:1.13;letter-spacing:-.9px;font-weight:700;margin-bottom:18px;}
+  header.hero p.lede{font-size:19px;color:#d6e4f6;max-width:66ch;}
+  header.hero .who{margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,.22);
+    font-size:15px;color:#b9d1ee;}
+  .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px;}
+  .btn{display:inline-block;padding:12px 20px;border-radius:4px;text-decoration:none;
+    font-size:15px;font-weight:600;transition:opacity .15s;}
+  .btn:hover{opacity:.87;}
+  .btn.primary{background:var(--amber);color:#20160a;}
+  .btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45);}
+
+  /* SECTIONS */
+  section{padding:52px 0;border-bottom:1px solid var(--hair);}
+  section:last-of-type{border-bottom:none;}
+  .tag{font-size:11.5px;letter-spacing:2.4px;text-transform:uppercase;font-weight:700;
+    color:var(--blue);margin-bottom:12px;}
+  h2{font-size:30px;line-height:1.22;letter-spacing:-.6px;font-weight:700;color:var(--navy);margin-bottom:16px;}
+  h3{font-size:19px;line-height:1.35;font-weight:700;color:var(--navy);margin:26px 0 8px;}
+  p{color:var(--sub);margin-bottom:14px;max-width:72ch;}
+  p.intro{font-size:18.5px;color:var(--ink);}
+  ul,ol{color:var(--sub);margin:0 0 14px 20px;max-width:72ch;}
+  li{margin-bottom:8px;}
+  strong{color:var(--ink);}
+
+  /* CONSTATS */
+  .constat{border-left:3px solid var(--navy);background:var(--soft);
+    padding:20px 22px;margin:18px 0;border-radius:0 4px 4px 0;}
+  .constat h3{margin-top:0;font-size:18px;}
+  .constat .fait{font-size:15.5px;color:var(--sub);margin-bottom:10px;}
+  .constat .fait b{color:var(--navy);}
+  .constat .cout{font-size:15.5px;color:var(--sub);margin-bottom:0;}
+  .constat .cout b{color:var(--ink);}
+  .constat.fort{border-left-color:var(--amber);background:#fdf6ea;}
+
+  /* PHASES */
+  .phase{border:1px solid var(--hair);border-radius:5px;padding:22px 24px;margin-bottom:16px;}
+  .phase .n{display:inline-block;background:var(--navy);color:#fff;font-size:12px;font-weight:700;
+    letter-spacing:1.6px;text-transform:uppercase;padding:5px 11px;border-radius:3px;margin-bottom:12px;}
+  .phase h3{margin:0 0 10px;}
+  .phase ul{margin-bottom:0;}
+
+  /* POSTS */
+  .post{border:1px solid var(--hair);border-radius:5px;margin-bottom:18px;overflow:hidden;}
+  .post .ph{background:var(--soft);padding:13px 20px;border-bottom:1px solid var(--hair);
+    display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;justify-content:space-between;}
+  .post .ph .t{font-weight:700;color:var(--navy);font-size:16px;}
+  .post .ph .m{font-size:12.5px;color:var(--muted);text-transform:uppercase;letter-spacing:1.2px;font-weight:600;}
+  .post .body{padding:18px 20px;}
+  .post .copy{white-space:pre-line;font-size:15.5px;color:var(--ink);
+    background:#fff;border-left:2px solid var(--hair);padding-left:16px;margin-bottom:14px;}
+  .post .note{font-size:14px;color:var(--muted);margin:0;}
+  .post .note b{color:var(--sub);}
+
+  /* TABLE */
+  .tbl{overflow-x:auto;margin:16px 0;}
+  table{border-collapse:collapse;width:100%;min-width:620px;font-size:15px;}
+  th,td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--hair);vertical-align:top;}
+  th{background:var(--soft);color:var(--navy);font-size:12.5px;letter-spacing:1.2px;
+    text-transform:uppercase;font-weight:700;}
+  td{color:var(--sub);}
+  td b{color:var(--ink);}
+
+  /* CANDIDATURE */
+  #candidature{background:var(--deep);color:#fff;border-bottom:none;}
+  #candidature h2,#candidature h3{color:#fff;}
+  #candidature .tag{color:#9dc0f0;}
+  #candidature p{color:#cfe0f4;}
+  #candidature strong{color:#fff;}
+
+  .foot{padding:34px 0 44px;font-size:14.5px;color:var(--muted);}
+  .foot a{color:var(--navy);}
+
+  @media(max-width:640px){
+    body{font-size:16px;}
+    header.hero{padding:44px 0 40px;}
+    header.hero h1{font-size:32px;}
+    header.hero p.lede{font-size:17px;}
+    h2{font-size:25px;}
+    section{padding:40px 0;}
+  }
+</style></head><body>
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">Candidature · Responsable des communications</div>
+  <h1>Audit des communications de Solidarité Ahuntsic, et ce que je ferais dans les 90 premiers jours</h1>
+  <p class="lede">Ce document accompagne ma candidature. Je l’ai préparé avant de vous écrire, à partir de vos documents publics : votre plan d’action 2021-2025, votre Portrait de quartier 2025, votre site et vos canaux. Il est à vous, que ma candidature soit retenue ou non.</p>
+  <div class="who">Ouchylon Suong · résident d’Ahuntsic depuis le 1<sup>er</sup> juillet 2020 · contact@ouchylon.com · 819-919-6974</div>
+  <div class="btns">
+    <a class="btn primary" href="#constats">Lire l’audit</a>
+    <a class="btn ghost" href="#plan">Le plan 30-60-90</a>
+    <a class="btn ghost" href="#candidature">Ma candidature</a>
+  </div>
+</div></header>
+
+<section id="heure-juste"><div class="wrap">
+  <div class="tag">L’heure juste</div>
+  <h2>Une précision avant les constats</h2>
+  <p class="intro">Rien de ce qui suit n’est un reproche. Une table de quartier communique dans des conditions que personne d’autre n’a : elle doit faire exister publiquement un travail qui est, par nature, invisible. La concertation ne se photographie pas. On voit le comité logement, la maison des jeunes, la banque alimentaire. On ne voit pas la table qui les a réunis.</p>
+  <p>À cela s’ajoute une équipe qui porte déjà L’École de la citoyenneté, La Maison du Monde, Louvain Est, deux chantiers, cinq tables sectorielles, un centre communautaire et une infolettre aux deux semaines. Les écarts que j’ai relevés ne sont pas des erreurs. Ce sont des symptômes de manque de bras. C’est précisément ce que le poste vient corriger.</p>
+  <p>J’ai limité l’audit à ce que j’ai pu vérifier moi-même, avec les dates à l’appui. Vous trouverez à la fin la liste de ce que je n’ai pas pu voir.</p>
+</div></section>
+
+<section id="constats"><div class="wrap">
+  <div class="tag">L’audit</div>
+  <h2>Six constats, vérifiables</h2>
+
+  <div class="constat fort">
+    <h3>1. La page « Communications d’organismes » est en Lorem ipsum depuis le 11 février 2025</h3>
+    <p class="fait"><b>Le fait :</b> la page est en ligne, publique, et affiche encore le texte de remplissage du gabarit, titre compris.</p>
+    <p class="cout"><b>Pourquoi c’est le constat le plus important :</b> cette page est exactement l’outil dont votre rôle de courroie de transmission a besoin. Quelqu’un l’a créée, a compris qu’elle était nécessaire, puis n’a jamais eu le temps de la remplir. Dix-huit mois plus tard, elle est toujours là. C’est le symptôme le plus net du problème que ce poste vient régler, et c’est réparable en une semaine.</p>
+  </div>
+
+  <div class="constat">
+    <h3>2. Le site n’a aucune section d’actualités</h3>
+    <p class="fait"><b>Le fait :</b> votre plan de site déclare 28 pages, un calendrier d’événements et deux catégories techniques. Il n’existe aucun fichier d’articles. Le site est entièrement composé de pages fixes.</p>
+    <p class="cout"><b>Ce que ça coûte :</b> rien de neuf n’est jamais indexé, personne n’a de raison de revenir, et surtout l’infolettre doit être écrite à partir de rien tous les quinze jours au lieu de puiser dans un fil déjà alimenté. Une section Actualités, c’est le même travail écrit une fois et réutilisé trois fois.</p>
+  </div>
+
+  <div class="constat">
+    <h3>3. Le calendrier d’événements est arrêté depuis mars 2025</h3>
+    <p class="fait"><b>Le fait :</b> neuf événements y figurent. Le plus récemment modifié l’a été le 25 mars 2025. Les autres datent de 2024 : Opération sac à dos, la Journée des fèves au lard, l’accueil du nouveau personnel.</p>
+    <p class="cout"><b>Ce que ça coûte :</b> une personne qui cherche « qu’est-ce qui se passe dans Ahuntsic » et qui tombe sur un calendrier figé en conclut qu’il ne se passe rien. C’est l’inverse exact de la réalité du quartier.</p>
+  </div>
+
+  <div class="constat">
+    <h3>4. Les pages de vos deux projets phares n’ont pas bougé depuis 2023</h3>
+    <p class="fait"><b>Le fait :</b> L’École de la citoyenneté, dernière modification le 24 avril 2023. Les six pages de la section Louvain Est, le 1<sup>er</sup> juin 2023, et la page Publications, le 9 janvier 2024.</p>
+    <p class="cout"><b>Ce que ça coûte :</b> Louvain Est a fait l’objet d’une annonce fédérale de 15 M$ et concerne la relocalisation de treize organismes du Centre communautaire. Votre page « Actualités Louvain Est » n’en dit rien. C’est le dossier le plus lourd du quartier, et c’est celui dont votre site parle le moins.</p>
+  </div>
+
+  <div class="constat">
+    <h3>5. L’archive de l’infolettre s’arrête au 16 février 2026</h3>
+    <p class="fait"><b>Le fait :</b> Les Nouvelles Solidaires paraissent aux deux semaines et sont archivées année par année depuis 2020, ce qui est une belle discipline. Le dernier numéro listé est celui du 16 février 2026.</p>
+    <p class="cout"><b>Ce que ça coûte :</b> il se peut que l’infolettre continue de partir sans que l’archive suive, et je n’ai aucun moyen de le savoir de l’extérieur. Dans un cas comme dans l’autre, six mois de contenu ne sont plus consultables. C’est dommage, parce que c’est votre canal le plus solide et le mieux tenu.</p>
+  </div>
+
+  <div class="constat">
+    <h3>6. LinkedIn est votre canal le moins coûteux, et le moins utilisé</h3>
+    <p class="fait"><b>Le fait :</b> Instagram compte 861 abonnés pour 252 publications. LinkedIn en compte 218. Facebook demeure le canal principal.</p>
+    <p class="cout"><b>Ce que ça coûte :</b> LinkedIn est l’endroit où se trouvent vos partenaires institutionnels, vos bailleurs de fonds, les fonctionnaires de l’arrondissement et les élus, c’est-à-dire exactement les gens qui décident du financement. C’est aussi le canal le moins cher à alimenter, parce qu’il ne demande que de republier ce que vous écrivez déjà ailleurs, avec un angle différent.</p>
+  </div>
+
+  <h3>Votre stack, pour information</h3>
+  <p>WordPress avec le thème Avada, l’extension Yoast pour le référencement, Modern Events Calendar pour le calendrier, LiteSpeed pour la mise en cache, et ActivityMessenger pour l’inscription à l’infolettre. Je travaille dans WordPress depuis des années et je fais les mises à jour techniques moi-même. ActivityMessenger, je ne le connais pas encore, et je le dis franchement dans ma lettre.</p>
+</div></section>
+
+<section id="plan"><div class="wrap">
+  <div class="tag">Le plan de match</div>
+  <h2>Ce que je ferais dans les 90 premiers jours</h2>
+  <p>L’ordre compte plus que la vitesse. On écoute, on arrête ce qui se dégrade, puis on installe un système qui tient sans héroïsme.</p>
+
+  <div class="phase">
+    <span class="n">Jours 1 à 30 · Écouter et stopper l’usure</span>
+    <h3>Comprendre avant de produire</h3>
+    <ul>
+      <li>Rencontrer l’équipe, les porteurs de chantiers, et une dizaine d’organismes membres. Écouter avant de proposer, y compris sur ce qui a déjà été essayé et qui n’a pas marché.</li>
+      <li>Remplacer le Lorem ipsum de la page « Communications d’organismes » par une première version fonctionnelle, avec un formulaire de soumission simple.</li>
+      <li>Remettre le calendrier d’événements à jour et y verser les activités des trois mois à venir.</li>
+      <li>Reprendre l’archivage de l’infolettre là où il s’est arrêté.</li>
+      <li>Monter la veille hebdomadaire dans un tableau partagé : Journal des voisins, arrondissement, CIUSSS du Nord-de-l’Île, Ville de Montréal, Centraide, Coalition montréalaise des tables de quartier. Objectif : vingt minutes par semaine.</li>
+    </ul>
+  </div>
+
+  <div class="phase">
+    <span class="n">Jours 31 à 60 · Installer le système</span>
+    <h3>Écrire une fois, servir trois fois</h3>
+    <ul>
+      <li>Livrer le plan de communication, ancré sur vos quatre piliers plutôt que construit à côté d’eux.</li>
+      <li>Ouvrir une section Actualités sur le site, avec un gabarit d’article court de 300 mots que n’importe qui dans l’équipe peut remplir en vingt minutes.</li>
+      <li>Monter le calendrier éditorial trimestriel, calé sur le vrai cycle de votre année.</li>
+      <li>Produire le kit de gabarits pour les organismes membres.</li>
+      <li>Remettre LinkedIn en marche, en republiant systématiquement avec un angle partenaire.</li>
+    </ul>
+  </div>
+
+  <div class="phase">
+    <span class="n">Jours 61 à 90 · Faire rayonner</span>
+    <h3>Rendre visible ce qui ne l’est pas</h3>
+    <ul>
+      <li>Publier les premières capsules « Récits d’Ahuntsic », prévues à l’action 1.1 de votre plan d’action.</li>
+      <li>Mettre à jour les pages Louvain Est et L’École de la citoyenneté, et raconter enfin le dossier du Centre communautaire.</li>
+      <li>Premier bilan chiffré : ce qui a été publié, ce qui a été lu, ce qui a été repris par les membres. Vulgarisé, pas un tableau de bord illisible.</li>
+      <li>Amorcer la production du rapport annuel, avec un calendrier qui évite le sprint de dernière minute.</li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="semaine"><div class="wrap">
+  <div class="tag">Prêt à publier</div>
+  <h2>Une semaine de publications, déjà écrites</h2>
+  <p>Cinq publications construites à partir de vos contenus réels : le Portrait de quartier 2025, le Guide des ressources, le Chantier Habitation, La Maison du Monde et vos organismes membres. Les textes sont finaux. Il ne reste qu’à monter les visuels dans votre charte et à valider les données à l’interne.</p>
+
+  <div class="post">
+    <div class="ph"><span class="t">1. Le chiffre qui dérange</span><span class="m">Facebook · Instagram · LinkedIn</span></div>
+    <div class="body">
+      <div class="copy">43 % des aîné·es d’Ahuntsic vivent seuls.
+
+À l’échelle de Montréal, c’est 37 %.
+
+C’est une des données de notre Portrait de quartier 2025, réalisé à partir du recensement avec le soutien de la Direction régionale de santé publique.
+
+Derrière ce pourcentage, il y a des voisins. Des gens qui, certaines journées, ne parlent à personne.
+
+Plusieurs organismes du quartier travaillent déjà sur l’isolement des aîné·es, et la Table de concertation et d’action des aînés d’Ahuntsic les réunit.
+
+Le portrait complet est sur notre site.</div>
+      <p class="note"><b>Visuel :</b> carrousel de quatre images, fond bleu #083671, le 43 % en très gros sur la première, la comparaison montréalaise sur la deuxième, la source sur la troisième, l’appel à l’action sur la quatrième. <b>Pourquoi ça marche :</b> une donnée locale et vérifiable se partage; un slogan, non.</p>
+    </div>
+  </div>
+
+  <div class="post">
+    <div class="ph"><span class="t">2. Le service concret</span><span class="m">Facebook · Instagram</span></div>
+    <div class="body">
+      <div class="copy">« Je ne sais pas où appeler. »
+
+C’est la phrase qu’on entend le plus souvent.
+
+Le Guide des ressources communautaires d’Ahuntsic recense les organismes du quartier par besoin : logement, alimentation, emploi, famille, santé mentale, aîné·es, personnes nouvellement arrivées.
+
+Il est gratuit. Il est à jour. Il est en ligne.
+
+Enregistrez-le. Ou envoyez-le à quelqu’un qui en a besoin aujourd’hui.</div>
+      <p class="note"><b>Visuel :</b> image unique, très lisible, gros titre sur fond clair. <b>À reprendre :</b> quatre fois par année, en changeant l’accroche selon la saison, rentrée scolaire, temps des impôts, canicule, temps des fêtes.</p>
+    </div>
+  </div>
+
+  <div class="post">
+    <div class="ph"><span class="t">3. Le chantier, expliqué</span><span class="m">Facebook · LinkedIn</span></div>
+    <div class="body">
+      <div class="copy">0,8 %.
+
+C’est le taux d’inoccupation des logements dans Ahuntsic-Cartierville en 2024. Sous 3 %, on parle d’un marché en crise.
+
+63 % des ménages d’Ahuntsic sont locataires.
+
+Le Chantier Habitation de Solidarité Ahuntsic réunit les organismes, les institutions et les résident·es qui travaillent sur cette question : lutte à l’insalubrité, développement de logement social, défense des droits des locataires.
+
+Ce n’est pas un comité de plus. C’est l’endroit où les acteurs du quartier arrêtent de travailler chacun de leur côté.
+
+Vous voulez y participer ? Écrivez-nous.</div>
+      <p class="note"><b>Visuel :</b> photo réelle du quartier, chiffre en surimpression. <b>Angle LinkedIn :</b> même texte, dernier paragraphe remplacé par une invitation aux partenaires institutionnels. C’est l’exemple type d’un contenu écrit une fois et servi deux fois.</p>
+    </div>
+  </div>
+
+  <div class="post">
+    <div class="ph"><span class="t">4. Le lieu qu’on ne connaît pas</span><span class="m">Facebook · Instagram</span></div>
+    <div class="body">
+      <div class="copy">Il y a une maison de quartier sur Chabanel.
+
+La Maison du Monde, au 20, rue Chabanel Ouest, est ouverte aux résident·es de Saint-Simon et aux organismes de l’arrondissement.
+
+Ateliers de cuisine. Aide aux devoirs. Conférences. Sorties. Et des locaux gratuits pour vos propres activités.
+
+Elle est née d’un partenariat entre l’Arrondissement d’Ahuntsic-Cartierville et Solidarité Ahuntsic. Elle appartient au quartier.
+
+Vous avez une idée d’activité ? La salle est disponible et l’équipe vous accompagne.</div>
+      <p class="note"><b>Visuel :</b> photo du lieu, pas un graphique. Les lieux se montrent. <b>Format complémentaire :</b> une capsule verticale de 40 secondes qui fait le tour de la maison, tournée en une heure.</p>
+    </div>
+  </div>
+
+  <div class="post">
+    <div class="ph"><span class="t">5. Série « Les 80 »</span><span class="m">Toutes les semaines · tous les canaux</span></div>
+    <div class="body">
+      <div class="copy">Solidarité Ahuntsic réunit plus de 80 organismes.
+
+On commence aujourd’hui une série pour vous les présenter, un par semaine.
+
+→ [Nom de l’organisme]
+→ Ce qu’ils font, en deux phrases
+→ Qui peut y aller, et comment
+
+La concertation, c’est abstrait. Les organismes, eux, ne le sont pas.</div>
+      <p class="note"><b>Pourquoi cette série est la plus importante des cinq :</b> elle règle votre problème de fond. Elle rend la table visible en montrant ce qu’elle réunit, elle donne du contenu à publier pendant plus d’un an et demi, et chaque organisme présenté repartage sa propre fiche, ce qui vous fait entrer dans 80 réseaux au lieu du seul vôtre. Le gabarit est identique chaque semaine, donc la production prend vingt minutes.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="calendrier"><div class="wrap">
+  <div class="tag">Le système</div>
+  <h2>Un calendrier éditorial bâti sur vos quatre piliers</h2>
+  <p>Trois publications par semaine, pas davantage. Le contenu ne sort pas d’une séance de remue-méninges, il sort de votre plan d’action. Chaque pilier a sa semaine, et la série « Les 80 » traverse tout.</p>
+  <div class="tbl"><table>
+    <tr><th>Pilier</th><th>Ce qu’on raconte</th><th>Formats</th></tr>
+    <tr><td><b>1. Tisser des liens entre nous</b></td><td>Récits d’Ahuntsic, initiatives citoyennes, série « Les 80 », L’École de la citoyenneté</td><td>Capsule vidéo, portrait, carrousel</td></tr>
+    <tr><td><b>2. Accessibilité et égalité des chances</b></td><td>Guide des ressources, employabilité, clinique d’impôt, accueil des personnes nouvellement arrivées</td><td>Publication service, infographie, rappel saisonnier</td></tr>
+    <tr><td><b>3. Continuum de services</b></td><td>Chantier Santé mentale, Centre communautaire, référencement entre organismes, tables sectorielles</td><td>Article court, LinkedIn partenaires, infolettre</td></tr>
+    <tr><td><b>4. Milieux de vie sains et résilients</b></td><td>Chantier Habitation, Louvain Est, transition écologique, ruelles vertes, îlots de chaleur</td><td>Donnée locale, photo de quartier, suivi de dossier</td></tr>
+  </table></div>
+  <h3>Le cycle réel de votre année</h3>
+  <p>Rentrée en août et septembre, assemblée générale, rendez-vous public du plan de quartier, production du rapport annuel, campagnes des chantiers, temps des impôts, canicules, temps des fêtes. Un calendrier qui suit ce cycle-là s’écrit une fois par trimestre et se remplit tout seul.</p>
+</div></section>
+
+<section id="gabarits"><div class="wrap">
+  <div class="tag">Mutualisation</div>
+  <h2>Un kit que vos 80 organismes peuvent utiliser</h2>
+  <p>Votre plan d’action prévoit un chantier de mutualisation et de partage. Voici sa version communications, et elle règle du même coup la page en Lorem ipsum.</p>
+  <ul>
+    <li><strong>Six gabarits Canva</strong> à votre charte, modifiables par n’importe qui : annonce d’activité, offre d’emploi, recrutement de bénévoles, chiffre du mois, témoignage, rappel de service.</li>
+    <li><strong>Une page « Communications d’organismes » fonctionnelle</strong>, avec un formulaire où un membre dépose son annonce et une date, et où elle apparaît sans que personne ait à faire du copier-coller.</li>
+    <li><strong>Un aide-mémoire d’une page</strong> : les formats et dimensions par plateforme, ce qui fonctionne, ce qui ne fonctionne pas, et comment écrire une accroche. Destiné aux organismes qui n’ont personne aux communications, c’est-à-dire la majorité.</li>
+    <li><strong>Une trousse d’accueil numérique</strong> pour les nouvelles personnes en poste dans le quartier, prévue à l’orientation 6 de votre plan.</li>
+  </ul>
+  <p>L’effet recherché n’est pas cosmétique. Un message relayé par 80 organismes touche plus de monde que le même message publié une fois sur votre page, et il coûte le même temps de production.</p>
+</div></section>
+
+<section id="recits"><div class="wrap">
+  <div class="tag">Action 1.1 de votre plan</div>
+  <h2>Récits d’Ahuntsic</h2>
+  <p>Votre plan d’action prévoit d’« effectuer des récits et des histoires dans Ahuntsic », avec l’objectif de présenter des expériences positives plutôt que d’alimenter des parcours stéréotypés, et de donner la parole aux personnes de minorités visibles, neuroatypiques ou au parcours atypique.</p>
+  <p>C’est le genre de projet qui coûte cher en production et qui reste sur la liste des bonnes idées. Je le propose à l’interne, avec mon propre matériel.</p>
+  <ul>
+    <li><strong>Huit capsules</strong> de 60 à 90 secondes, une personne par capsule, deux par mois.</li>
+    <li><strong>Format vertical</strong> pour les réseaux sociaux, avec une version longue de 4 à 5 minutes pour le site et l’infolettre.</li>
+    <li><strong>Sous-titres systématiques</strong>, parce qu’une part importante de votre public regarde sans le son, et parce que c’est une question d’accessibilité.</li>
+    <li><strong>Tournage d’une heure</strong> par personne, dans son milieu, sans équipe. Le montage suit.</li>
+    <li><strong>Consentement écrit</strong> et droit de retrait à tout moment. Quand on filme des personnes vulnérables, cette partie-là n’est pas négociable.</li>
+  </ul>
+  <p>Les huit premières capsules donnent aussi la matière du rapport annuel, du rendez-vous public du plan de quartier, et des demandes de financement. Un tournage, quatre usages.</p>
+</div></section>
+
+<section id="limites"><div class="wrap">
+  <div class="tag">Honnêteté</div>
+  <h2>Ce que je n’ai pas pu vérifier</h2>
+  <p>Un audit fait de l’extérieur a des angles morts, et je préfère les nommer que de faire semblant.</p>
+  <ul>
+    <li>La cadence réelle et la performance de votre page Facebook, qui n’est pas consultable sans compte.</li>
+    <li>Vos statistiques de site, vos taux d’ouverture d’infolettre et votre nombre d’abonné·es.</li>
+    <li>Si l’infolettre continue de paraître malgré l’archive arrêtée en février.</li>
+    <li>Ce qui a déjà été essayé et abandonné, et pour quelles raisons. C’est souvent l’information la plus utile, et elle ne s’obtient qu’en parlant à l’équipe.</li>
+    <li>Vos contraintes de financement, qui déterminent ce qui est réellement faisable dans une année.</li>
+  </ul>
+  <p>Autrement dit, ce plan est une hypothèse sérieuse, pas une vérité. La première chose que je ferais en poste, c’est de le corriger avec vous.</p>
+</div></section>
+
+<section id="candidature"><div class="wrap">
+  <div class="tag">Ma candidature</div>
+  <h2>Pourquoi moi, en trois lignes</h2>
+  <p>Neuf ans en communication et en marketing, dont la coordination d’un réseau de plus de 200 franchises et la direction des communications d’un exportateur québécois. En parallèle, du travail auprès de personnes vulnérables : maison des jeunes, maison de répit, curatelle, CHSLD, puis conseiller funéraire auprès de familles en deuil.</p>
+  <p>J’écris, je construis des sites WordPress, je conçois les visuels, je filme et je monte. Seul, sans fournisseur, avec mon matériel.</p>
+  <p>Et j’habite Ahuntsic depuis le 1<sup>er</sup> juillet 2020. Ce que je propose ici, ce n’est pas un mandat de consultant. C’est du travail dans mon propre quartier.</p>
+  <div class="btns">
+    <a class="btn primary" href="Candidature-Ouchylon-Suong-SolidariteAhuntsic.pdf">Lettre et CV (PDF)</a>
+    <a class="btn ghost" href="mailto:contact@ouchylon.com">contact@ouchylon.com</a>
+  </div>
+</div></section>
+
+<div class="wrap foot">
+  <p>Document préparé par <strong>Ouchylon Suong</strong> en appui à sa candidature au poste de responsable des communications de Solidarité Ahuntsic, en août 2026. Il n’émane pas de Solidarité Ahuntsic et n’engage que son auteur. Les constats proviennent de sources publiques : le plan de site, le plan d’action 2021-2025, le Portrait de quartier 2025 et les canaux sociaux de l’organisme, consultés le 13 août 2026.</p>
+</div>
+
+</body></html>
